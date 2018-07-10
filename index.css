@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   background: url('image/twitter_cover.jpg') no-repeat center center fixed;
+   background-size: cover;
+}
+
+header {
+    border-radius: 5px;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: #2AAAE2;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.form {
+    text-align: center;
+}
+
+#tweetArea {
+    margin-top: 40px;
+    border-radius: 5px;
+    resize: none;
+}
+
+#section {
+    color: white;
+}
+
+#btn {
+    border-radius: 5px;
+    color: #fdfdfd;
+    background-color: #4bacd0;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    opacity: 0.5;
+}
+
+.hour {
+    color: black;
+    align-self: flex-end;
+    font-size: 12px;
+
+}
+
+p {
+    word-wrap: break-word;
+    margin: 0;
+    font-weight: 800;
+}
+
+.text {
+    margin: 20px 100px;
+    padding: 10px;
+    border: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
